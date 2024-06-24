@@ -31,7 +31,7 @@ fetch('data.json')
 
       let dailyhtml = `
       <div class="body-container">
-      <img src="./public/images/icon-${time.img}.svg"/>
+      <img src="./public/images/icon-${time.img}.svg" alt="an icon representing the event"/>
       <div class="content">
         <div>
           <span class="title">${time.title}</span><img src="./public/images/icon-ellipsis.svg" alt="an ellipsis icon"/>
@@ -45,7 +45,7 @@ fetch('data.json')
 
         let weeklyhtml = `
         <div class="body-container">
-        <img src="./public/images/icon-${time.img}.svg"/>
+        <img src="./public/images/icon-${time.img}.svg" alt="an icon representing the event"/>
         <div class="content">
           <div>
             <span class="title">${time.title}</span><img src="./public/images/icon-ellipsis.svg" alt="an ellipsis icon"/>
@@ -60,7 +60,7 @@ fetch('data.json')
 
       let monthlyhtml = `
       <div class="body-container">
-      <img src="./public/images/icon-${time.img}.svg"/>
+      <img src="./public/images/icon-${time.img}.svg" alt="an icon representing the event"/>
       <div class="content">
         <div>
           <span class="title">${time.title}</span><img src="./public/images/icon-ellipsis.svg" alt="an ellipsis icon"/>
