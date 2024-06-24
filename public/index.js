@@ -34,7 +34,7 @@ fetch('data.json')
       <img src="./public/images/icon-${time.img}.svg"/>
       <div class="content">
         <div>
-          <span class="title">${time.title}</span><img src="./public/images/icon-ellipsis.svg"/>
+          <span class="title">${time.title}</span><img src="./public/images/icon-ellipsis.svg" alt="an ellipsis icon"/>
         </div>
          <div>
           <span class="current">${time.timeframes.daily.current}hrs</span>
@@ -48,7 +48,7 @@ fetch('data.json')
         <img src="./public/images/icon-${time.img}.svg"/>
         <div class="content">
           <div>
-            <span class="title">${time.title}</span><img src="./public/images/icon-ellipsis.svg"/>
+            <span class="title">${time.title}</span><img src="./public/images/icon-ellipsis.svg" alt="an ellipsis icon"/>
           </div>
            <div>
             <span class="current">${time.timeframes.weekly.current}hrs</span>
@@ -63,7 +63,7 @@ fetch('data.json')
       <img src="./public/images/icon-${time.img}.svg"/>
       <div class="content">
         <div>
-          <span class="title">${time.title}</span><img src="./public/images/icon-ellipsis.svg"/>
+          <span class="title">${time.title}</span><img src="./public/images/icon-ellipsis.svg" alt="an ellipsis icon"/>
         </div>
          <div>
           <span class="current">${time.timeframes.monthly.current}hrs</span>
